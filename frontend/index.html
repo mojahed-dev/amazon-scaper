@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Amazon Scraper</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center mt-3">
+            <div class="col-md-6">
+                <input type="text" id="keyword" placeholder="Enter keyword" class="form-control mb-2 mx-auto">
+            </div>
+        </div>
+        <div class="row justify-content-center mb-3">
+            <div class="col-md-6">
+                <button onclick="scrapeAmazon()" class="btn btn-primary btn-block">Scrape Amazon</button>
+            </div>
+        </div>
+        <div id="results" class="row"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
